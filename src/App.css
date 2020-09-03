@@ -1,0 +1,273 @@
+.college-data {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+.rectangle-1 {
+  height: 377px;
+
+
+  margin: 0;
+  padding: 0;
+
+}
+
+.college-image {
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  /* padding: 20px; */
+  margin: 10px 50px 0px 50px;
+  height: 237;
+  /* width: 40%; */
+  font-size: 30px;
+  text-align: center;
+}
+
+.Hansraj-College-Delhi-University {
+  width: 260px;
+  height: 17px;
+  font-family: DINPro;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444444;
+}
+
+.Hansraj-College-Delhi-University span {
+  /* width: 639px; */
+  height: 377px;
+  border-radius: 3.8px;
+  box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+  border: solid 0.2px var(--greyish-brown);
+  background-color: #ffffff;
+}
+
+.college-card {
+  height: 233.2px;
+  position: relative;
+  background-image: url('./assets/college_01.jpg');
+
+}
+
+.college-image-inner {
+  height: 233.2px;
+  position: absolute;
+  opacity: 0.7;
+  background-color: #444444;
+  width: 100%;
+}
+
+.rating {
+  position: absolute;
+  right: 9px;
+  top: 22px;
+
+  background-color: #f5a626;
+  width: 75px;
+  height: 53px;
+  border-radius: 3.8px;
+}
+
+.-Very-Good {
+  width: 60px;
+  height: 40px;
+  font-family: DINPro;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.-Very-Good .text-style-1 {
+  font-size: 18.5px;
+  font-weight: bold;
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 11px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 16px;
+}
+
+.Rectangle-2 {
+
+  width: 135px;
+  height: 34px;
+  border-radius: 16.5px;
+  background-color: #ffffff;
+
+  left: 15px;
+}
+
+.Rectangle-2a {
+
+  width: 135px;
+  height: 34px;
+  border-radius: 16.5px;
+  background-color: #ffffff;
+  bottom: 11px;
+
+}
+
+#-in-260-colleges-in-north-campus {
+  position: absolute;
+  width: 199px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  right: 15px;
+  bottom: 21px;
+  color: #ffffff;
+}
+
+.kms-away {
+  width: 63px;
+  height: 13px;
+  display: inline-block;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #444444;
+}
+
+.Best-college-2018 {
+  width: 100px;
+  display: inline-block;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--greyish-brown);
+  margin: auto;
+}
+
+.Near-Vishwavidyalya-Metro-Station-outer {
+  float: left;
+  padding-left: 15px;
+}
+
+.Near-Vishwavidyalya-Metro-Station {
+  width: 196px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--greyish-brown);
+}
+
+.-Kms-away-from-bus-stand {
+  width: 157px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #adadad;
+}
+
+.-Match-25kms-from-GTB-Nagar-7-Kms-from-Rajiv-Chowk {
+  /* width: 358px; */
+  height: 13px;
+  padding-left: 15px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  /* text-align: center; */
+  /* float: left; */
+  color: #adadad;
+}
+
+.-Match-25kms-from-GTB-Nagar-7-Kms-from-Rajiv-Chowk #rajiv-chowk-outer {
+  float: left;
+}
+
+.-Match-25kms-from-GTB-Nagar-7-Kms-from-Rajiv-Chowk .text-style-1 {
+  font-weight: bold;
+  color: #37b396;
+
+}
+
+.-Match-25kms-from-GTB-Nagar-7-Kms-from-Rajiv-Chowk .text-style-2 {
+  font-weight: bold;
+  color: #444444;
+
+}
+
+.Rectangle-4 {
+  width: 347px;
+  height: 35px;
+  background-color: #ccf5e7;
+}
+
+.Flat-Rs2000-off-upto-Rs-500-wallet-to-avail-LOGIN span {
+  display: inline-block;
+}
+
+.Flat-Rs2000-off-upto-Rs-500-wallet-to-avail-LOGIN {
+  width: 347px;
+  height: 35px;
+  vertical-align: middle;
+  line-height: -1px !important;
+  background-color: #ccf5e7;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444444;
+}
+
+.Flat-Rs2000-off-upto-Rs-500-wallet-to-avail-LOGIN .text-style-1 {
+  font-weight: 500;
+}
+
+.Flat-Rs2000-off-upto-Rs-500-wallet-to-avail-LOGIN .text-style-2 {
+  color: #4bb89e;
+}
+
+.Flat-Rs2000-off-upto-Rs-500-wallet-to-avail-LOGIN .text-style-3 {
+  color: #1999d2;
+}
